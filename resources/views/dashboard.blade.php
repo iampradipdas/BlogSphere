@@ -25,9 +25,9 @@
         <div class="mt-6 bg-white p-6 rounded-lg shadow-md">
             <h3 class="text-lg font-semibold mb-4 text-gray-700">Recent Posts</h3>
             <ul>
-                <li class="border-b py-2 text-gray-600 hover:text-indigo-600 transition">How to Write Engaging Blog Content</li>
-                <li class="border-b py-2 text-gray-600 hover:text-indigo-600 transition">Understanding SEO for Bloggers</li>
-                <li class="py-2 text-gray-600 hover:text-indigo-600 transition">10 Tips for Writing Better Articles</li>
+                <li class="border-b py-2 text-gray-600 hover:text-indigo-600 transition cursor-pointer">How to Write Engaging Blog Content</li>
+                <li class="border-b py-2 text-gray-600 hover:text-indigo-600 transition cursor-pointer">Understanding SEO for Bloggers</li>
+                <li class="py-2 text-gray-600 hover:text-indigo-600 transition cursor-pointer">10 Tips for Writing Better Articles</li>
             </ul>
         </div>
     </div>

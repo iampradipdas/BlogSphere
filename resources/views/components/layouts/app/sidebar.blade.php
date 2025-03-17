@@ -15,13 +15,17 @@
 
         <div class="w-64 p-6">
             <ul class="mt-6 space-y-4">
-                <li><a href="#" class="block text-gray-600 hover:text-blue-500">Dashboard</a></li>
+                <li><a href="{{ route('dashboard') }}" class="block text-gray-600 hover:text-blue-500">Dashboard</a></li>
+                <li><a href="{{ route('permissions.index') }}" class="block text-gray-600 hover:text-blue-500">Permissions</a></li>
+                <li><a href="{{ route('roles.index') }}" class="block text-gray-600 hover:text-blue-500">Roles</a></li>
+                <li><a href="{{ route('articles.index') }}" class="block text-gray-600 hover:text-blue-500">Articles</a></li>
+                <li><a href="{{ route('users.index') }}" class="block text-gray-600 hover:text-blue-500">Users</a></li>
                 <li><a href="#" class="block text-gray-600 hover:text-blue-500">Posts</a></li>
                 <li><a href="#" class="block text-gray-600 hover:text-blue-500">Categories</a></li>
-                <li><a href="#" class="block text-gray-600 hover:text-blue-500">Users</a></li>
                 <li><a href="#" class="block text-gray-600 hover:text-blue-500">Settings</a></li>
             </ul>
         </div>
+        
 
         <flux:spacer />
 
